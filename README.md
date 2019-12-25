@@ -1,5 +1,10 @@
 # today-I-learned
 
+### 2019-12-25
+In React 16 and earlier, only updates inside React event handlers are batched by default. There is an unstable API `ReactDOM.unstable_batchedUpdates` to force batching outside React event handlers.
+
+多次 setState 不会立即重新调用 render 重新渲染，React 会 batch 然后只执行一次渲染，但是这只在 `React event handlers` 中表现（在  `Promise.then` 或 `setTimeout` 等中没有实现），因为 `React event handlers` 实际调用了 `ReactDOM.unstable_batchedUpdates` 这个方法来批量处理更新。
+
 ### 2019-12-22
 `rAF` 是在下一次重绘之前调用，通常是一秒钟60次，与屏幕刷新率相同。如果刷新率更高，浏览器也会与之匹配。所以使用 `rAF` 绘制动画时，不能默认每一次间隔就是 1/60 sec。
 
