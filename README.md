@@ -1,5 +1,8 @@
 # today-I-learned
 
+### 2020-01-27
+在`c`中，定义一个`string`可以使用`char *s`来定义，`s`是一个指针指向第一个`char`的内存地址。
+
 ### 2019-12-25
 In React 16 and earlier, only updates inside React event handlers are batched by default. There is an unstable API `ReactDOM.unstable_batchedUpdates` to force batching outside React event handlers.
 
