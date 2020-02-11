@@ -1,5 +1,10 @@
 # today-I-learned
 
+### 2020-02-11
+CSS not only blocks rendering but also blocks script execution and that’s why optimizing CSS is so important.
+
+css文件的加载不仅会 block render tree 的生成，也会 block script tag 的执行。
+
 ### 2020-01-27
 在`c`中，数组里的元素的内存地址是根据数组里的类型控制的，比如`int nums[3]`，每个`int`都是`int`占4个`byte`，`nums[0]`的内存地址是`0x100`，接下来的元素内存地址就是`0x104`和`0x108`。
 
