@@ -1,5 +1,8 @@
 # today-I-learned
 
+### 2020-02-13
+`DOMContentLoaded` 事件是 `DOM` 和 `CSSOM` 都构建完成后触发。
+
 ### 2020-02-11
 CSS not only blocks rendering but also blocks script execution and that’s why optimizing CSS is so important.
 
