@@ -1,7 +1,7 @@
 # today-I-learned
 
 ### 2020-03-18
-Scope is static and contains a fixed set of variables available at the moment and location you define a function, but a function's execution context is dynamic, entirely dependent on how it is called (regardless of where it is defined or even called from).
+Scope is **static** and contains a fixed set of variables available at the moment and location you define a function, but a function's execution context is **dynamic**, entirely dependent on how it is called (regardless of where it is defined or even called from).
 
 ### 2020-02-13
 `DOMContentLoaded` 事件是 `DOM` 和 `CSSOM` 都构建完成后触发。
