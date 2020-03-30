@@ -1,5 +1,11 @@
 # today-I-learned
 
+### 2020-03-30
+Three ways to measure the performance of functions:
+- `performance.now()`
+- `console.time(identifier)` and `console.timeEnd(identifier)`
+- execute the function multiple times if it is running too fast.
+
 ### 2020-03-18
 Scope is **static** and contains a fixed set of variables available at the moment and location you define a function, but a function's execution context is **dynamic**, entirely dependent on how it is called (regardless of where it is defined or even called from).
 
