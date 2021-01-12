@@ -1,7 +1,7 @@
 # today-I-learned
 
 ### 2021-01-12
-![inputmode](https://pbs.twimg.com/media/Erg49B7VQAAADli?format=jpg&name=medium)
+![inputmode](./assets/Erg49B7VQAAADli.jpeg)
 
 ### 2020-03-30
 Three ways to measure the performance of functions:
